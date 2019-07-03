@@ -1,0 +1,62 @@
+
+.top-navbar {
+  .share-dropdown-wrap {
+    .navbar-nav{
+      position: $relative;
+      li.edit-share-icon {
+        cursor: pointer;
+        min-height: auto;
+        padding: $zero-value;
+        position: $relative;
+        right: 20px;
+        width: 20px;
+        @include for-community-tile {
+          right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.edit-share-banner-popup {
+  .edit-share-banner-wrap {
+    padding: 17px;
+    border-bottom: 1px solid $dark-white;
+      .share-name-show {
+        h3 {
+          margin: $zero-value;
+          a {
+            color: $white-color;
+          }
+          .fix-name {
+            margin-left: 7px;
+          }
+        }
+      }
+    }
+  .upload-logo-name {
+    .twitter-input-col {
+      &.share-edit-input-column {
+        width: $full-width;
+        max-width: $full-width;
+      }
+    }
+  }
+  .edit-share-banner-row {
+    margin-top: 20px;
+    &.custom-scrollbar{
+      max-height: 195px;
+    }
+  }
+}
+
+.edit-share-wrap {
+  h4 {
+    margin: $zero-value;
+  }
+  .share-twitter-handle {
+    h4 {
+      margin-bottom: 24px;
+    }
+  }
+}

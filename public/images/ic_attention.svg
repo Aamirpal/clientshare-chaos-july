@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_attention</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="•-Dashboard-/-Feed-/-Onboarding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Onboarding-10-Status-(Mobile)" transform="translate(-16.000000, -272.000000)">
+            <g id="Alert" transform="translate(16.000000, 268.000000)">
+                <g id="ic_attention" transform="translate(0.000000, 4.000000)">
+                    <polygon id="Shape" points="0 0 16 0 16 16 0 16"></polygon>
+                    <path d="M8,0 C3.581722,-2.58379177e-15 2.58379177e-15,3.581722 0,8 C-2.58379177e-15,12.418278 3.581722,16 8,16 C12.418278,16 16,12.418278 16,8 C15.9919946,3.58504219 12.4149578,0.00800538294 8,0 Z M8,13.0909091 C7.59833836,13.0909091 7.27272727,12.765298 7.27272727,12.3636364 C7.27272727,11.9619747 7.59833836,11.6363636 8,11.6363636 C8.40166164,11.6363636 8.72727273,11.9619747 8.72727273,12.3636364 C8.72727273,12.765298 8.40166164,13.0909091 8,13.0909091 Z M8.72727273,9.45454545 C8.72727273,9.85620709 8.40166164,10.1818182 8,10.1818182 C7.59833836,10.1818182 7.27272727,9.85620709 7.27272727,9.45454545 L7.27272727,3.63636364 C7.27272727,3.234702 7.59833836,2.90909091 8,2.90909091 C8.40166164,2.90909091 8.72727273,3.234702 8.72727273,3.63636364 L8.72727273,9.45454545 Z" id="Shape" fill="#0D47A1" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+@import '../../../sass/variables';
+
+.tooltip-inner {
+    font-size: 12px;
+    background: $basic-color;
+    border-radius: 8px;
+    padding: 0;
+    line-height: 16px;
+    font-family: $basic-font;
+}
+
+.tooltip.show {
+    opacity: 1;
+}
+
+.bs-tooltip-top .arrow::before, 
+.bs-tooltip-auto[x-placement^=top] .arrow::before {
+    border-top-color: $basic-color;
+}

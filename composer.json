@@ -1,0 +1,96 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "7.2.*",
+        "ext-exif": "*",
+        "ext-gd": "*",
+        "ext-imagick": "*",
+        "ext-mbstring": "*",
+        "abraham/twitteroauth": "^0.9.2",
+        "brainmaestro/composer-git-hooks": "^2.6",
+        "codedungeon/phpunit-result-printer": "^0.26.0",
+        "doctrine/dbal": "^2.5",
+        "filp/whoops": "^2.3",
+        "guzzlehttp/guzzle": "6.*",
+        "h4cc/wkhtmltopdf-amd64": "0.12.x",
+        "intervention/image": "dev-master",
+        "jakub-onderka/php-parallel-lint": "^1.0",
+        "jenssegers/rollbar": "^1.5",
+        "lakshmaji/thumbnail": "^1.4",
+        "laravel/framework": "5.8.*",
+        "laravel/socialite": "4.0.*",
+        "league/flysystem-aws-s3-v3": "~1.0",
+        "maatwebsite/excel": "~2.1.0",
+        "mikehaertl/phpwkhtmltopdf": "^2.3",
+        "mixpanel/mixpanel-php": "2.*",
+        "phpmd/phpmd": "^2.6",
+        "phpunit/phpunit": "^7.0",
+        "predis/predis": "^1.1",
+        "robthree/twofactorauth": "^1.6",
+        "sensiolabs/security-checker": "^5.0",
+        "snowfire/mail": "2.*",
+        "squizlabs/php_codesniffer": "^3.4",
+        "zae/strict-transport-security": "^0.0.3"
+    },  
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "symfony/css-selector": "3.1.*",
+        "symfony/dom-crawler": "3.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Tests\\": "tests/"
+        },
+        "files": [
+            "app/Helpers/Helper.php"
+        ],
+        "psr-0": {
+            "Acme": "app/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "extra": {
+       "laravel": {
+           "dont-discover": []
+       },
+       "hooks": {
+           "pre-commit": "chmod +x .deploy/pre_commit.sh && .deploy/pre_commit.sh"
+       }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
+        ],
+        "cghooks": "vendor/bin/cghooks"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}

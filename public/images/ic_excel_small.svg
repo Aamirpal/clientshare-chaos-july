@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_EXCEL</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-767.000000, -41.000000)">
+            <g id="ic_EXCEL" transform="translate(768.000000, 42.000000)">
+                <g id="Group-15-Copy-3" stroke="#0D47A1">
+                    <rect id="Rectangle-14" x="0" y="0" width="16" height="19.826087" rx="2"></rect>
+                </g>
+                <g id="Group-22-Copy" transform="translate(4.500000, 6.000000)" fill="#0D47A1">
+                    <polygon id="Fill-1" points="0 0 5.20472727 7.82181818 7.22545455 7.82181818 2.02072727 0"></polygon>
+                    <polygon id="Fill-2" points="5.20472727 0 0 7.82181818 2.02109091 7.82181818 7.22545455 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

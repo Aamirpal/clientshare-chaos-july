@@ -1,0 +1,42 @@
+@import '../../../sass/variables';
+
+.feed-header {
+    display: $flex;
+    justify-content: space-between;
+}
+
+.feed-head-left {
+    display: $flex;
+    align-items: center;
+    img {
+        @include for-ipad-only {
+            position: relative;
+            top: -10px;
+        }
+    }
+    h2 {
+        margin: 0 0 0 15px;
+        @include for-ipad-only {
+          font-size: $medium-font + 2px;
+          margin-bottom: 20px;
+        }
+    }    
+}
+
+.feed-head-right {
+    display: $flex;
+    position: relative;
+    top: 18px;
+    @include for-community-tile {
+        top: 8px;
+    }
+    @include for-ipad-only {
+        top: $zero-value;
+    }
+    .btn-secondary {
+        margin-right: 10px;
+        &:last-child {
+            margin: $zero-value;
+        }
+    }
+}

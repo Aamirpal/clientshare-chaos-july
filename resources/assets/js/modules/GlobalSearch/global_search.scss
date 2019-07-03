@@ -1,0 +1,206 @@
+@import '../../../sass/variables';
+
+.header-search-wrap {
+    @include for-mobile-only {
+        display: $flex;
+        align-items: $center;
+        position: static;
+    }
+    .search-row {
+        position: $relative;
+        max-width: 412px;
+        width: $full-width;
+        display: inline-block;
+        left: 10px;
+        @include for-ipad-only {
+            min-width: 280px;
+            left: $zero-value;
+        }
+        @include for-mobile-only {
+            display: $none-value;
+        }
+        &::before {
+            border-bottom: 10px solid $white-color;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            content: "";
+            height: $zero-value;
+            left: 14px  ;
+            position: $absolute;
+            right: $zero-value;
+            width: $zero-value;
+            z-index: 9999;
+            top: -9px;
+        }
+        .scrol-dropdown {
+            border-radius: 10px;
+            .search-dropdown {
+                list-style: $none-value;
+                padding: $zero-value;
+                z-index: 99;
+                background: $white-color;
+                border: 1px solid $dark-white;
+                box-shadow: $shadow;
+                border-radius: 10px;
+                li {
+                    width: $full-width;
+                    a {
+                        color: $basic-color;
+                        display: inline-block;
+                        border-bottom: 1px solid $dark-white;
+                        width: $full-width;
+                        padding: 13px 16px 11px;
+                        &:hover {
+                        background: $ghost-white;
+                        }
+                        h6 {
+                        margin: 0 0 8px;
+                        }
+                        p {
+                        color: $light-gray;
+                        font-size: $normal-font;
+                        margin: $zero-value;
+                        line-height: 22px;
+                        }
+                        .YourHighlightClass {
+                            color: $primary-color;
+                            background: transparent;
+                            padding: 0;
+                        }
+                    }
+                    .no-result {
+                        color: $basic-color;
+                        padding: 13px 16px 11px;
+                        display: $flex;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+                .search-loader {
+                    padding: 17px 0;
+                    background: transparent;
+                    img {
+                    width: 40px;
+                    }
+                }
+            }
+        }
+        .scrol-dropdown {
+            div {
+                &:last-child {
+                    div {
+                        background-color: rgba(0, 0, 0, 0.2) !important 
+                    }
+                }
+            }
+        }
+    }
+    .search-desktop {
+        @include for-mobile-only {
+            display: $none-value;
+        }
+    }
+    .mobile-search {
+        display: $none-value;
+        @include for-mobile-only {
+            display: block;
+            .search-mobile-icon {
+                &::after {
+                    display: $none-value;
+                }
+            }
+        }
+        .dropdown {
+            position: inherit;
+            height: $full-width;
+            display: $flex;
+            align-items: $center;
+            justify-content: $center;
+            width: 50px;
+            .mobile-search-form {
+                position: $relative;
+                img {
+                    position: absolute;
+                    right: 15px;
+                    top: 15px;
+                }
+            }
+        }
+        .show {
+            background: rgba(0, 0, 0, 0.4);
+        }
+        .dropdown-menu {
+            width: $full-width;
+            background: $ghost-white;
+            padding: 16px 17px;
+            border-radius: $zero-value;
+            .search-mbl-box {
+                @include for-mobile-only {
+                    margin: 0;
+                }
+                form {
+                    background: $medium-gray;
+                    border-radius: 6px;
+                    padding: 8px 0;
+                    .search-box {
+                        padding: 5px 36px;
+                        background: url('../../images/search_icon_gray.svg') 9px 8px no-repeat;
+                        color: $light-gray;
+                        height: auto;
+                    }
+                    input::-moz-placeholder {
+                        color: $light-gray;
+                        font-size: $normal-font;
+                    }
+                    input::-ms-input-placeholder {
+                        color: $light-gray;
+                        font-size: $normal-font;
+                    } 
+                    input::-webkit-input-placeholder {
+                        color: $light-gray;
+                        font-size: $normal-font;
+                        font-weight: 400;
+                    }
+                    input::placeholder {
+                        color: $light-gray;
+                        font-size: $normal-font;
+                    }
+                }
+            }
+        }
+        .search-row {
+            display: $flex;
+            position: $absolute;
+            top: 128px;
+            max-width: $full-width;
+            left: $zero-value;
+            &::before {
+                display: $none-value;
+            }
+            .scrol-dropdown,
+            .search-dropdown {
+                border-radius: $zero-value;
+                @include for-mobile-only {
+                    border: $none-value;
+                }
+                li {
+                    a {
+                        padding: 13px 17px 11px;
+                        @include for-mobile-only {
+                            padding: 17px 17px 14px;
+                        }
+                    }
+                }
+            }
+            .scrol-dropdown {
+                height: 324px;
+                overflow-x: scroll;
+                width: $full-width;
+                @include for-mobile-only {
+                    max-height: 324px;
+                    height: inherit;
+                }
+            }
+        }
+    }
+}

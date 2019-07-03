@@ -1,0 +1,83 @@
+export const styles = {
+  inputContainer: {
+    position: 'relative',
+    width: '95%',
+    paddingLeft: 12,
+  },
+  commentInput: {
+    width: '100%',
+    fontSize: 14,
+    lineHeight: '22px',
+    color: ({ theme }) => theme.basic_color,
+    background: ({ theme }) => theme.ghost_white,
+    padding: '7px 120px 7px 16px',
+    borderRadius: 18,
+    minHeight: '40px',
+    border: '0px',
+    display: 'flex',
+    alignItems: 'center',
+  },
+  buttonContainer: {
+    position: 'absolute',
+    right: 5,
+    top: 8,
+    display: 'flex',
+    alignItems: 'center',
+  },
+  button: {
+    color: ({ theme }) => theme.light_gray,
+    fontSize: 14,
+    lineHeight: '22px',
+    padding: 0,
+    background: 'transparent',
+    fontWeight: 'normal',
+    height: 'auto',
+    border: 'none',
+    marginRight: '12px',
+    '@media (max-width: 767px)': {
+      fontSize: 12,
+      marginRight: '8px',
+    },
+    '&:hover': {
+      background: 'transparent',
+      border: 'none',
+      color: ({ theme }) => theme.light_gray,
+    },
+    '&:active': {
+      background: 'transparent',
+      border: 'none',
+      color: ({ theme }) => theme.light_gray,
+    },
+  },
+  addCommentButton: {
+    display: 'flex',
+    height: '30px',
+    padding: '7px 12px',
+    margin: 0,
+    '&:hover': {
+      border: 'none',
+      background: ({ theme }) => theme.primary_color,
+    },
+    '&:active': {
+      border: 'none',
+      background: ({ theme }) => theme.primary_color,
+    },
+    '&:disabled': {
+      color: '#fff',
+      opacity: 1,
+    },
+  },
+  cancelCommentButton: {
+    display: 'flex',
+  },
+  commentError: {
+    fontSize: '12px',
+    lineHeight: '16px',
+    color: ({ theme }) => theme.alert_color,
+    bottom: 12,
+    position: ({ theme }) => theme.relative,
+    zIndex: 9,
+    left: 15,
+    top: 4,
+  },
+};

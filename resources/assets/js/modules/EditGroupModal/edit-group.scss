@@ -1,0 +1,84 @@
+@import '../../../sass/variables';
+
+.lock-icon {
+    background: url(../../images/lock_icon.svg) no-repeat center;
+    width: 12px;
+    height: 14px;
+    margin-left: 8px;
+}
+
+.group-tile {
+    cursor: pointer;
+    &:hover {
+        background: $dark-green;
+        transform: translate(0, -4px);
+        -webkit-transform: translate(0, -4px);
+        -ms-transform: translate(0, -4px);
+        -o-transform: translate(0, -4px);
+        h5 {
+            color: $white-color;
+        }
+        p, .member-count {
+            color: $white-color;
+            .lock-icon {
+                background: url(../../images/lock_icon_white.svg) no-repeat center;
+            }
+        }
+    }
+}
+
+.gray-tile-row {
+    .group-tile {
+        background: $ghost-white;
+        padding: 10px;
+        display: $flex;
+        max-width: 132px;
+        min-width: 132px;
+        min-height: 72px;
+        transition: all 0.3s ease-in-out;
+        border-radius: 10px;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 10px;
+        cursor: default;
+        h5 {
+            font-weight: 500;
+            font-size: $normal-font;
+            line-height: normal;
+            color: $light-gray;
+            margin: $zero-value;
+            padding-right: 8px;
+            word-break: break-word;
+        }
+        p {
+            font-weight: normal;
+            font-size: 12px;
+            line-height: normal;
+            text-align: right;
+            color: $light-gray;
+            margin: $zero-value;
+            display: $flex;
+            align-items: $center;
+            justify-content: flex-end;
+        }
+        .icon {
+            margin-left: 8px;
+        }
+    }
+}
+
+.gray-tile-row {
+    .group-tile {
+        &:hover {
+            p {
+                color: $light-gray;
+            }
+        }
+    }
+}
+
+.group-edit-tile {
+    &:nth-child(5n-5) {
+        margin-right: $zero-value;
+    }
+}

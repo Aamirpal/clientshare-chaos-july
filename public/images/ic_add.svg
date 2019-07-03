@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>AB34B668-F7DF-4ABB-A4D2-D545DEDE4EE9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Dashboard/Feed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-v2-Admin-Pop-Ups-states" transform="translate(-73.000000, -696.000000)" fill="#0D47A1" fill-rule="nonzero">
+            <g id="Edit-Category" transform="translate(57.000000, 360.000000)">
+                <g id="ic_add" transform="translate(16.000000, 336.000000)">
+                    <polygon id="Shape" points="12 8.57142857 8.57142857 8.57142857 8.57142857 12 7.42857143 12 7.42857143 8.57142857 4 8.57142857 4 7.42857143 7.42857143 7.42857143 7.42857143 4 8.57142857 4 8.57142857 7.42857143 12 7.42857143"></polygon>
+                    <path d="M8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 Z M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z" id="Oval"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

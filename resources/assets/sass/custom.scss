@@ -1,0 +1,11 @@
+$theme-colors: (
+  "primary": #2CCDA0,
+  "danger": #ff4136,
+  "secondary": #E9EBF3,
+  "light": #F5F6FA,
+  "primary_light": #D9F7EF
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";

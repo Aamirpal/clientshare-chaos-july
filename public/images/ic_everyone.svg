@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="28px" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>343ED182-0A90-479D-8D35-19263BF4CAE6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-4.1%" y="-4.6%" width="108.1%" height="110.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.619607843   0 0 0 0 0.619607843   0 0 0 0 0.619607843  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="•-Dashboard-/-Feed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard/Feed/TagAll" transform="translate(-728.000000, -992.000000)" fill="#424242" fill-rule="nonzero">
+            <g id="Tag" filter="url(#filter-1)" transform="translate(720.000000, 988.000000)">
+                <g id="All">
+                    <g id="ic_everyone" transform="translate(16.000000, 8.000000)">
+                        <path d="M10.9096282,7.14285714 C12.2952709,7.14285714 13.4054545,5.99428571 13.4054545,4.57142857 C13.4054545,3.14857143 12.2952709,2 10.9096282,2 C9.52398543,2 8.40545455,3.14857143 8.40545455,4.57142857 C8.40545455,5.99428571 9.52398543,7.14285714 10.9096282,7.14285714 Z M5.09144635,7.14285714 C6.47708909,7.14285714 7.58727273,5.99428571 7.58727273,4.57142857 C7.58727273,3.14857143 6.47708909,2 5.09144635,2 C3.70580361,2 2.58727273,3.14857143 2.58727273,4.57142857 C2.58727273,5.99428571 3.70580361,7.14285714 5.09144635,7.14285714 Z M5.09090909,8.85714286 C3.39636364,8.85714286 0,9.86 0,11.8571429 L0,14 L10.1818182,14 L10.1818182,11.8571429 C10.1818182,9.86 6.78545455,8.85714286 5.09090909,8.85714286 Z M10.9090909,8.85714286 C10.6981818,8.85714286 10.4581818,8.87428571 10.2036364,8.9 C11.0472727,9.62 11.6363636,10.5885714 11.6363636,11.8571429 L11.6363636,14 L16,14 L16,11.8571429 C16,9.86 12.6036364,8.85714286 10.9090909,8.85714286 Z" id="Shape" transform="translate(8.000000, 8.000000) scale(-1, 1) translate(-8.000000, -8.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

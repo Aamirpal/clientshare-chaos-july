@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="8px" viewBox="0 0 16 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>46A375F1-00AA-4F45-BBC4-6D2DC064DE3D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Dashboard/Feed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-v2-Admin" transform="translate(-160.000000, -340.000000)" fill="#E0E0E0">
+            <g id="Executive-summary" transform="translate(144.000000, 176.000000)">
+                <g id="ic_link" transform="translate(16.000000, 160.000000)">
+                    <path d="M1.52,8 C1.52,6.632 2.632,5.52 4,5.52 L7.2,5.52 L7.2,4 L4,4 C1.792,4 0,5.792 0,8 C0,10.208 1.792,12 4,12 L7.2,12 L7.2,10.48 L4,10.48 C2.632,10.48 1.52,9.368 1.52,8 L1.52,8 Z M4.8,8.8 L11.2,8.8 L11.2,7.2 L4.8,7.2 L4.8,8.8 L4.8,8.8 Z M12,4 L8.8,4 L8.8,5.52 L12,5.52 C13.368,5.52 14.48,6.632 14.48,8 C14.48,9.368 13.368,10.48 12,10.48 L8.8,10.48 L8.8,12 L12,12 C14.208,12 16,10.208 16,8 C16,5.792 14.208,4 12,4 L12,4 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

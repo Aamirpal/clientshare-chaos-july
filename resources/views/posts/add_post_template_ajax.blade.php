@@ -1,0 +1,1 @@
+@include('posts/admin_landing_addpost')

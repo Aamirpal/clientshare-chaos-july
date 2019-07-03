@@ -1,0 +1,32 @@
+version: 2
+notify:
+  webhooks:
+    # A list of hashes representing hooks. Only the url field is supported.
+    - url: https://production-review-tool.herokuapp.com/api/buildNotification
+jobs:
+  build:
+    working_directory: ~/clientshare-web
+    docker:
+      - image: thecodingmachine/php:7.2-v2-cli-node10
+      - image: postgres:9.6.2
+        environment:
+          POSTGRES_USER: ubuntu
+          POSTGRES_DB: postgres
+          POSTGRES_PASSWORD: postgres
+    steps:
+      - checkout
+      - run:
+          name: Install System Dependencies
+          command: |
+            sudo apt-get update && sudo apt-get -f install && sudo apt-get install wget
+      - run:
+          name: Install Node Dependencies
+          command: |
+            npm install && npm run dev
+      - run:
+          name: Run Unit Test
+          command: |
+            npm run test
+      - run: 
+          name: Check Rejected Commits
+          command: ./deploy

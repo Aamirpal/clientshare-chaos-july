@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="48px" viewBox="0 0 64 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>4AA4E238-59CD-4964-8E7F-E0C43C979C8C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Dashboard/Feed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-v2-Admin" transform="translate(-494.000000, -476.000000)" fill="#E6ECF5">
+            <g id="File" transform="translate(404.000000, 424.000000)">
+                <path d="M120.608696,57.0526316 L149.826087,57.0526316 C152.052174,57.0526316 154,58.8210526 154,60.8421053 L154,96.2105263 C154,98.2315789 152.052174,100 149.826087,100 L94.173913,100 C91.9478261,100 90,98.2315789 90,96.2105263 L90,55.7894737 C90,53.7684211 91.9478261,52 94.173913,52 L115.043478,52 L120.608696,57.0526316 Z" id="ic_folder"></path>
+            </g>
+        </g>
+    </g>
+</svg>

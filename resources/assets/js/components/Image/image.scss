@@ -1,0 +1,9 @@
+@import '../../../sass/variables';
+
+.cummunity-small-avtar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: darken($dark-white, 20%);
+    display: $flex;
+}

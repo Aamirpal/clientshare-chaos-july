@@ -1,0 +1,14 @@
+[
+    {"id":"1","group_name": "Everyone","group_member_count": "all","icon":"../../images/globe.svg"}, 
+    {"id":"2","group_name": "Group name 6","group_member_count": "7 members","icon":"../../images/lock_icon.svg"},
+    {"id":"3","group_name": "Investment News","group_member_count": "5 members","icon":"../../images/lock_icon.svg"},
+    {"id":"4","group_name": "Group name 1","group_member_count": "2 members","icon":"../../images/lock_icon.svg"},
+    {"id":"5","group_name": "Group name 2","group_member_count": "27 members","icon":"../../images/lock_icon.svg"},
+    {"id":"6","group_name": "Group name 3","group_member_count": "5 members","icon":"../../images/lock_icon.svg"},
+    {"id":"7","group_name": "Group name 4","group_member_count": "6 members","icon":"../../images/lock_icon.svg"},
+    {"id":"8","group_name": "Group name 7","group_member_count": "3 members","icon":"../../images/lock_icon.svg"},
+    {"id":"9","group_name": "Group name 2","group_member_count": "27 members","icon":"../../images/lock_icon.svg"},
+    {"id":"10","group_name": "Group name 3","group_member_count": "5 members","icon":"../../images/lock_icon.svg"},
+    {"id":"11","group_name": "Group name 4","group_member_count": "6 members","icon":"../../images/lock_icon.svg"},
+    {"id":"12","group_name": "Group name 7","group_member_count": "3 members","icon":"../../images/lock_icon.svg"}
+]

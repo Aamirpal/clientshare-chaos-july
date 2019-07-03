@@ -1,0 +1,53 @@
+@import '../../../sass/variables';
+
+.review-post-count {
+  p {
+    margin: 0 7px 0 0;
+    color: $light-gray;
+  }
+}
+
+.business-head-col {
+  margin-bottom: 16px;
+  .feed-head-left {
+    img {
+      width: 24px;
+    }
+  }
+}
+
+.no-review-text {
+  font-weight: 500;
+  font-size: $sixteen-font;
+  line-height: 19px;
+  color: $light-gray;
+  margin-bottom: 13px;
+}
+
+.business-post {
+  .disable-container {
+    margin-top: 19px;
+  }
+  @include for-mobile-only {
+    .feed-right-part {
+      display: $flex;
+      padding: 0 16px;
+    }
+  }
+}
+
+.add-review-btn-mbl {
+  margin: 16px 0;
+  .log-review {
+    background: $dark-gray;
+    border-radius: 30px;
+    font-size: $sixteen-font;
+    line-height: 19px;
+    padding: 15px 15px 14px;
+    display: $flex;
+    justify-content: $center;
+    img {
+      margin-right: 9px;
+    }
+  }
+}
